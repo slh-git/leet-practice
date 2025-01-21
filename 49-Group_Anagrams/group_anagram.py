@@ -1,4 +1,5 @@
 from collections import defaultdict
+from typing import List
 
 
 # Count the letter combo of each word, using the count as a key insert it into a defaultdict
