@@ -1,4 +1,4 @@
-# We go from the the 2 atlantic vs 2 pacific edges. The edges we dfs to its own ocean. If we can reach the same cell from both pacific and atlantic, then we add it to the result.
+# We go from the the 2 atlantic vs 2 pacific edges. The edges we dfs to its own ocean.
 # if we can reach the same cell from both pacific and atlantic, then we add it to the result.
 from typing import List
 
