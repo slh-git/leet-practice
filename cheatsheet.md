@@ -46,4 +46,6 @@ See [Pacific Atlantic Water Flow](./417-Pacific_Atlantic_Waterflow/)
 - Start from source edge/boundaries and propagate
 - Combine results depending on problem (by union or intersection)
 
+### Staircase DP
+
 ## Others
