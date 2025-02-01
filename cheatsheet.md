@@ -46,6 +46,16 @@ See [Pacific Atlantic Water Flow](./417-Pacific_Atlantic_Waterflow/)
 - Start from source edge/boundaries and propagate
 - Combine results depending on problem (by union or intersection)
 
-### Staircase DP
+## DP
+
+### Staircase DP Patterns (Cheat Sheet)
+
+- **State:** `dp[i]` → Best way to reach step `i` (min/max cost, # ways, etc.).  
+- **Transition:** Usually `dp[i]` depends on `dp[i-1]`, `dp[i-2]`.  
+- **Base Case:** Set `dp[0]`, `dp[1]` explicitly.  
+- **Optimize Space:** Use `O(1)` space with two variables (`prev1, prev2`).  
+- **Common Problems:** **#70 Climbing Stairs** → Ways to reach `n`, **#746 Min Cost Climbing Stairs** → Min cost to reach top, **#55, #45 Jump Game** → Min/max jumps to finish, **#198, #213 House Robber** → Skip adjacent steps.  
+
+💡 **Pattern:** **Stair-like problems use DP with previous step dependencies.**
 
 ## Others
