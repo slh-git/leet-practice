@@ -11,6 +11,9 @@
   - [Graph](#graph)
     - [Simulate Reachability](#simulate-reachability)
     - [Multi-Source Reachability](#multi-source-reachability)
+  - [DP](#dp)
+    - [Staircase DP Patterns (Cheat Sheet)](#staircase-dp-patterns-cheat-sheet)
+  - [Hash Maps](#hash-maps)
   - [Others](#others)
   <!--toc:end-->
 
@@ -19,6 +22,7 @@
 ### Uncommon maneuvers
 
 - List repetition: `[0] * 3 -> [0, 0, 0]`
+- Use enumerate in for loop: `for i, val in enumerate(arr):` to get index and value
 
 ## String
 
@@ -50,12 +54,16 @@ See [Pacific Atlantic Water Flow](./417-Pacific_Atlantic_Waterflow/)
 
 ### Staircase DP Patterns (Cheat Sheet)
 
-- **State:** `dp[i]` → Best way to reach step `i` (min/max cost, # ways, etc.).  
-- **Transition:** Usually `dp[i]` depends on `dp[i-1]`, `dp[i-2]`.  
-- **Base Case:** Set `dp[0]`, `dp[1]` explicitly.  
-- **Optimize Space:** Use `O(1)` space with two variables (`prev1, prev2`).  
-- **Common Problems:** **#70 Climbing Stairs** → Ways to reach `n`, **#746 Min Cost Climbing Stairs** → Min cost to reach top, **#55, #45 Jump Game** → Min/max jumps to finish, **#198, #213 House Robber** → Skip adjacent steps.  
+- **State:** `dp[i]` → Best way to reach step `i` (min/max cost, # ways, etc.).
+- **Transition:** Usually `dp[i]` depends on `dp[i-1]`, `dp[i-2]`.
+- **Base Case:** Set `dp[0]`, `dp[1]` explicitly.
+- **Optimize Space:** Use `O(1)` space with two variables (`prev1, prev2`).
+- **Common Problems:** **#70 Climbing Stairs** → Ways to reach `n`, **#746 Min Cost Climbing Stairs** → Min cost to reach top, **#55, #45 Jump Game** → Min/max jumps to finish, **#198, #213 House Robber** → Skip adjacent steps.
+  💡 **Pattern:** **Stair-like problems use DP with previous step dependencies.**
 
-💡 **Pattern:** **Stair-like problems use DP with previous step dependencies.**
+## Hash Maps
+
+- Usually when past value is needed for O(1) lookup.
+- Keywords: Difference, Sum, Frequency, Compliments, etc.
 
 ## Others
