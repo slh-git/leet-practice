@@ -4,7 +4,7 @@
 
 - [Cheat Sheet for the Leet Python](#cheat-sheet-for-the-leet-python)
   - [List](#list)
-    - [Uncommon maneuvers](#uncommon-maneuvers)
+    - [Useful List Manipulations](#useful-list-manipulations)
   - [String](#string)
     - [Alphabet to index](#alphabet-to-index)
     - [Permutation in String](#permutation-in-string)
@@ -19,16 +19,17 @@
 
 ## List
 
-### Uncommon maneuvers
+### Useful List Manipulations
 
 - List repetition: `[0] * 3 -> [0, 0, 0]`
 - Use enumerate in for loop: `for i, val in enumerate(arr):` to get index and value
+- Merge two lists into list of pairs etc. `pair = [[l1, l2] for l1, l2 in zip(list1, list2)]`
 
 ## String
 
 ### Alphabet to index
 
-Ascii # of letter - ascii of a to get the index
+ASCII# of letter - ASCII of a to get the index
 
 - `ord(char) - ord('a')`
   - ord: The ord() function returns the number representing the Unicode code of a specified character.
@@ -36,6 +37,10 @@ Ascii # of letter - ascii of a to get the index
 ### Permutation in String
 
 Similar to anagrams where hash maps of a ~ z are used to determine between two strings, except add sliding window. See [Permutation_in_String](./567-Permutation_in_String/permu_string.py).
+
+## Stack
+
+- Good for merging/combining elems, keep track of most relevant item (eg: [853 Car Fleet](./853-Car_Fleet/car_fleet_stack.py))
 
 ## Graph
 
