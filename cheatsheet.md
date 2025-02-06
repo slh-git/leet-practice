@@ -8,6 +8,9 @@
   - [String](#string)
     - [Alphabet to index](#alphabet-to-index)
     - [Permutation in String](#permutation-in-string)
+  - [Stack](#stack)
+  - [Heap](#heap)
+    - [Max Heap](#max-heap)
   - [Graph](#graph)
     - [Simulate Reachability](#simulate-reachability)
     - [Multi-Source Reachability](#multi-source-reachability)
@@ -41,6 +44,19 @@ Similar to anagrams where hash maps of a ~ z are used to determine between two s
 ## Stack
 
 - Good for merging/combining elems, keep track of most relevant item (eg: [853 Car Fleet](./853-Car_Fleet/car_fleet_stack.py))
+
+## Heap
+
+Use `import heapq` and `heapq.heapify(<list>)` `heapq.heappush(<list>, <value>)` `heapq.heappop(<list>)`
+[!NOTE]
+This is a min heap, to use max heap, multiply values by -1
+
+### Max Heap
+
+[!NOTE]
+Python heapq no max heap, we can convert positive values to negative and use min heap if all values are positive
+
+- See [Last Stone Weight](./1046-Last_Stone_Weight/last_stone_weight.py) for example
 
 ## Graph
 
