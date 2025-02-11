@@ -3,6 +3,8 @@
 <!--toc:start-->
 
 - [Cheat Sheet for the Leet Python](#cheat-sheet-for-the-leet-python)
+  - [Float](#float)
+    - [Infinities](#infinities)
   - [List](#list)
     - [Useful List Manipulations](#useful-list-manipulations)
   - [String](#string)
@@ -19,6 +21,12 @@
   - [Hash Maps](#hash-maps)
   - [Others](#others)
   <!--toc:end-->
+
+## Float
+
+### Infinities
+
+- float("-inf"), float("inf")
 
 ## List
 
@@ -48,6 +56,7 @@ Similar to anagrams where hash maps of a ~ z are used to determine between two s
 ## Heap
 
 Use `import heapq` and `heapq.heapify(<list>)` `heapq.heappush(<list>, <value>)` `heapq.heappop(<list>)`
+
 > [!NOTE]
 > This is a min heap, to use max heap, multiply values by -1
 
