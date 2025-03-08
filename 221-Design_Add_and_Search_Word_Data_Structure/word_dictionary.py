@@ -37,3 +37,4 @@ class WordDictionary:
 
 
 # NOTE: O(n) for both / O(# of trie + n) space
+# NOTE: Search is O(n) only becasue theres is max 2 dots, also neetcode forgot to add that constaint to problem
