@@ -1,7 +1,6 @@
 # Cheat Sheet for the Leet Python
 
 <!--toc:start-->
-
 - [Cheat Sheet for the Leet Python](#cheat-sheet-for-the-leet-python)
   - [Float](#float)
     - [Infinities](#infinities)
@@ -20,7 +19,7 @@
     - [Staircase DP Patterns (Cheat Sheet)](#staircase-dp-patterns-cheat-sheet)
   - [Hash Maps](#hash-maps)
   - [Others](#others)
-  <!--toc:end-->
+<!--toc:end-->
 
 ## Float
 
