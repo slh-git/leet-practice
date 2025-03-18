@@ -1,5 +1,6 @@
 # Greedy by start time
-
+# NOTE: intuition: if the a start time is before the previous end time then u
+# remove the one that ends first
 from typing import List
 
 
@@ -16,3 +17,7 @@ class Solution:
                 res += 1
                 prevEnd = min(prevEnd, end)
         return res
+
+
+# O(nlogn)
+# O(n) or O(1) depending on sorting algo
