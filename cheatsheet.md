@@ -1,7 +1,9 @@
 # Cheat Sheet for the Leet Python
 
 <!--toc:start-->
+
 - [Cheat Sheet for the Leet Python](#cheat-sheet-for-the-leet-python)
+  - [Dictionary](#dictionary)
   - [Float](#float)
     - [Infinities](#infinities)
   - [List](#list)
@@ -19,7 +21,11 @@
     - [Staircase DP Patterns (Cheat Sheet)](#staircase-dp-patterns-cheat-sheet)
   - [Hash Maps](#hash-maps)
   - [Others](#others)
-<!--toc:end-->
+  <!--toc:end-->
+
+## Dictionary
+
+- Can use anything immutable as key, eg: **tuple, frozen** set. See [39-Valid_Sudoku](./36-Valid_Sudoku/valid_sudoku_1pass.py)
 
 ## Float
 
