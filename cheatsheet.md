@@ -1,7 +1,6 @@
 # Cheat Sheet for the Leet Python
 
 <!--toc:start-->
-
 - [Cheat Sheet for the Leet Python](#cheat-sheet-for-the-leet-python)
   - [Dictionary](#dictionary)
   - [Float](#float)
@@ -20,8 +19,9 @@
   - [DP](#dp)
     - [Staircase DP Patterns (Cheat Sheet)](#staircase-dp-patterns-cheat-sheet)
   - [Hash Maps](#hash-maps)
+  - [XOR](#xor)
   - [Others](#others)
-  <!--toc:end-->
+<!--toc:end-->
 
 ## Dictionary
 
@@ -100,5 +100,11 @@ See [Pacific Atlantic Water Flow](./417-Pacific_Atlantic_Waterflow/)
 
 - Usually when past value is needed for O(1) lookup.
 - Keywords: Difference, Sum, Frequency, Compliments, etc.
+
+## XOR
+
+See [268 Missing Number](268-Missing_Number/missing_num_xor.py)
+
+- `xor ^= x ^ y`
 
 ## Others
